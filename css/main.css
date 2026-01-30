@@ -19,3 +19,15 @@
 *{
     box-sizing: border-box;
 }
+/*Couleur d'arrière-plan */: #fdfffc
+/*Couleur du texte*/ #011627
+/*Tailles du texte */100%
+/*Hauteur de ligne*/ 1.4
+/*Police du texte Open Sans`, épaisseur 400 - https://fonts.google.com/specimen/Open+Sans
+                                                    Police des titres Changa One, épaisseur 400 - https://fonts.google.com/specimen/Changa+One
+                                                                                  Tailles des titres de niveau 1 2rem
+                                                                                  Marge extérieure en bas de 1em
+                                                                                  Tailles des titres de niveau 2 1.5rem
+                                                                                  Marge extérieure en bas de .75em
+                                                                                  Hauteur de ligne des paragraphes 1.5
+Les liens du site sont rouges #e71d36 et ne sont pas soulignés
