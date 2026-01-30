@@ -16,18 +16,29 @@
     src: url('../fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-*{
-    box-sizing: border-box;
+
+/* Styles généraux */
+body {
+    background-color: #fdfffc;
+    color: #011627;
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
-/*Couleur d'arrière-plan */: #fdfffc
-/*Couleur du texte*/ #011627
-/*Tailles du texte */100%
-/*Hauteur de ligne*/ 1.4
-/*Police du texte Open Sans`, épaisseur 400 - https://fonts.google.com/specimen/Open+Sans
-                                                    Police des titres Changa One, épaisseur 400 - https://fonts.google.com/specimen/Changa+One
-                                                                                  Tailles des titres de niveau 1 2rem
-                                                                                  Marge extérieure en bas de 1em
-                                                                                  Tailles des titres de niveau 2 1.5rem
-                                                                                  Marge extérieure en bas de .75em
-                                                                                  Hauteur de ligne des paragraphes 1.5
-Les liens du site sont rouges #e71d36 et ne sont pas soulignés
+/* Main content */
+main {
+    margin: 0 5%;
+}
+
+/* Image de profil en cercle */
+main img {
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
